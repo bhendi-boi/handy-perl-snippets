@@ -11,6 +11,12 @@
   "engines": {
     "vscode": "^1.87.0"
   },
+  "icon": "logo.jpeg",
+  "keywords": [
+    "Snippets",
+    "Perl",
+    "Perl Code snippets"
+  ],
   "categories": [
     "Snippets"
   ],

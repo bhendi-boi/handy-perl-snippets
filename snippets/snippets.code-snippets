@@ -1,1 +1,49 @@
-{}
+{
+    "Add strict and warning directives": {
+        "scope": "perl",
+        "prefix": "usw",
+        "body": [
+            "use strict;",
+            "use warnings;",
+            "$1",
+            "1;"
+        ],
+        "description": "Adds strict and warning directives"
+    },
+    "Add dumper": {
+        "scope": "perl",
+        "prefix": "udd",
+        "body": [
+            "use Data::Dumper;",
+        ],
+        "description": "Adds data dumper"
+    },
+    "Add a new subroutine": {
+        "scope": "perl",
+        "prefix": "usr",
+        "body": [
+            "sub $1 {",
+            "$2",
+            "}"
+        ],
+        "description": "Adds a subroutine"
+    },
+    "Add a new subroutine with params": {
+        "scope": "perl",
+        "prefix": "usrp",
+        "body": [
+            "sub $1 ($2) {",
+            "$3",
+            "}"
+        ],
+        "description": "Adds a subroutine with params"
+    },
+    "Add new print Dumper statement": {
+        "scope": "perl",
+        "prefix": "upd",
+        "body": [
+            "print Dumper( $1 );"
+        ],
+        "description": "Adds a new print Dumper statement"
+    },
+}

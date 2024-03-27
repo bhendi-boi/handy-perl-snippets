@@ -7,3 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## Initial release
 
 - Added 5 snippets namely `Add strict and warning directives`, `Add dumper`, `Add a new subroutine`, `Add a new subroutine with params`, `Add new print Dumper statement`.
+
+## 1.0.1
+
+- Added Logo

@@ -14,7 +14,7 @@
         "scope": "perl",
         "prefix": "udd",
         "body": [
-            "use Data::Dumper;",
+            "use Data::Dumper;"
         ],
         "description": "Adds data dumper"
     },
@@ -46,4 +46,83 @@
         ],
         "description": "Adds a new print Dumper statement"
     },
+    "Add new for block": {
+        "scope": "perl",
+        "prefix": "for",
+        "body": [
+            "for($1 = $2; $3 <= $4; $5){",
+            "$6",
+            "}"
+        ],
+        "description": "Adds a new for block"
+    },
+    "Add new while block": {
+        "scope": "perl",
+        "prefix": "while",
+        "body": [
+            "while($1){",
+            "$2",
+            "}"
+        ],
+        "description": "Adds a new while block"
+    },
+    "Add new if block": {
+        "scope": "perl",
+        "prefix": "if",
+        "body": [
+            "if($1){",
+            "$2",
+            "}"
+        ],
+        "description": "Adds a new if block"
+    },
+    "Add new if/else block": {
+        "scope": "perl",
+        "prefix": "ifel",
+        "body": [
+            "if($1){",
+            "$2",
+            "}",
+            "else{",
+            "$3",
+            "}"
+        ],
+        "description": "Adds a new if/else block"
+    },
+    "Add new unless block": {
+        "scope": "perl",
+        "prefix": "unless",
+        "body": [
+            "unless($1){",
+            "$2",
+            "}"
+        ],
+        "description": "Adds a new un;ess block"
+    },
+    "Add new unless/else block": {
+        "scope": "perl",
+        "prefix": "unel",
+        "body": [
+            "unless($1){",
+            "$2",
+            "}",
+            "else{",
+            "$3",
+            "}"
+        ],
+        "description": "Adds a new unless/else block"
+    },
+    "Add new try/catch block": {
+        "scope": "perl",
+        "prefix": "try",
+        "body": [
+            "try {",
+            "$1",
+            "}",
+            "catch{",
+            "$2",
+            "}"
+        ],
+        "description": "Adds a new try/catch block"
+    }
 }

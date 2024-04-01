@@ -9,6 +9,13 @@ Add this extension to get access to a bunch of handy perl code snippets
 - `sub` - Adds a subroutine
 - `subp` - Adds a subroutine with params
 - `pd` - Adds a new print Dumper statement
+- `for` - Adds a new for block
+- `while` - Add new while block
+- `if` - Add new if block
+- `ifel` - Add new if/else block
+- `unless` - Add new unless block
+- `unel` - Add new unless/else block
+- `try` - Add new try/catch block
 
 ## Release Notes
 
@@ -19,3 +26,7 @@ Initial release which includes 5 snippets.
 ### 1.1.0
 
 Made some design changes. To know more about the changes visit the changelog.
+
+### 1.2.0
+
+Added 7 more snippets namely `Add new for block`, `Add new while block`, `Add new if block`, `Add new if/else block`, `Add new unless block`, `Add new unless/else block`, `Add new try/catch block`

@@ -20,7 +20,7 @@
     },
     "Add a new subroutine": {
         "scope": "perl",
-        "prefix": "usr",
+        "prefix": "sub",
         "body": [
             "sub $1 {",
             "$2",
@@ -30,7 +30,7 @@
     },
     "Add a new subroutine with params": {
         "scope": "perl",
-        "prefix": "usrp",
+        "prefix": "subp",
         "body": [
             "sub $1 ($2) {",
             "$3",
@@ -40,7 +40,7 @@
     },
     "Add new print Dumper statement": {
         "scope": "perl",
-        "prefix": "upd",
+        "prefix": "pd",
         "body": [
             "print Dumper( $1 );"
         ],

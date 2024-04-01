@@ -11,3 +11,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 1.0.1
 
 - Added Logo
+
+## 1.1.0
+
+- Made some design changes.
+- Snippets concerned with adding directives will start with u.
+- Snippets mnemonics are made based on the first letter of the keywords used. For example mnemonic for **Add a dumper print statement** is `pd` (p and d corresponds to print and Dumper respectively).
+- If a snippets generates boilerplate for a keyword in perl (imagine a snippet for subroutine), mnemonic will be same as the keyword.

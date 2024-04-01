@@ -6,9 +6,9 @@ Add this extension to get access to a bunch of handy perl code snippets
 
 - `usw` - Adds strict and warning directives
 - `udd` - Adds dumper
-- `usr` - Adds a subroutine
-- `usrp` - Adds a subroutine with params
-- `upd` - Adds a new print Dumper statement
+- `sub` - Adds a subroutine
+- `subp` - Adds a subroutine with params
+- `pd` - Adds a new print Dumper statement
 
 ## Release Notes
 

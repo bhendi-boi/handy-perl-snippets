@@ -22,3 +22,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 1.2.0
 
 - Added 7 more snippets namely `Add new for block`, `Add new while block`, `Add new if block`, `Add new if/else block`, `Add new unless block`, `Add new unless/else block`, `Add new try/catch block`
+
+## 1.3.0
+
+- Added 3 more snippets namely `Add a BEGIN block`, `Add say` and `Add a new package`.

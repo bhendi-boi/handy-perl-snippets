@@ -124,5 +124,37 @@
             "}"
         ],
         "description": "Adds a new try/catch block"
-    }
+    },
+    "Add new BEGIN block": {
+        "scope": "perl",
+        "prefix": "begin",
+        "body": [
+            "BEGIN {",
+            "$1",
+            "}",
+        ],
+        "description": "Adds a new BEGIN block"
+    },
+    "Add say": {
+        "scope": "perl",
+        "prefix": "uss",
+        "body": [
+            "use feature qw/ say /;"
+        ],
+        "description": "Adds say to the script"
+    },
+    "Add a new package": {
+        "scope": "perl",
+        "prefix": "pkg",
+        "body": [
+            "package $1",
+            "",
+            "use strict;",
+            "use warnings;",
+            "$2",
+            "",
+            "1;"
+        ],
+        "description": "Adds a new package"
+    },
 }
